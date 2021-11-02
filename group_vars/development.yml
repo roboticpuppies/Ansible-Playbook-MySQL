@@ -1,0 +1,11 @@
+---
+
+# Create example database named 'myra_wp'
+mysql_databases:
+  - name: myra_wp
+
+# Create example database user named 'myra_wp_user'
+mysql_users:
+  - name: myra_wp_user
+    host: 127.0.0.1
+    password: Jj58X4X4rNWZEZbj
